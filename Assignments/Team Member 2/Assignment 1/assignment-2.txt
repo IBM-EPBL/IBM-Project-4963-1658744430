@@ -1,0 +1,56 @@
+@media (max-width:800px){
+.resume{
+margin:10px;
+grid-template-columns:repeat(1,1fr);
+flex-direction:column;
+}
+.resume_hobby{
+width:70%;
+}
+.resume_left{
+width:px;
+margin-right:10px;
+}
+.resume .resume_left{
+width:800px;
+margin:5px;
+}
+.resume .resume_left .resume_profile img{
+width:40%;
+padding:25 25 px;
+margin:10px;
+align:center;
+}
+.resume .resume_right{
+width:750px;
+}
+}
+
+@media (max-width:600px){
+.resume{
+margin:10px;
+grid-template-columns:repeat(1,1fr);
+flex-direction:column;
+}
+.resume_hobby{
+width:90%;
+}
+.resume_left{
+margin-right:10px;
+}
+.resume .resume_left{
+width:500px;
+margin:5px;
+}
+.resume .resume_left .resume_profile img{
+width:60%;
+padding:25 25 px;
+margin:10px;
+align:center;
+}
+.resume .resume_right{
+width:500px;
+}
+}
+
+
